@@ -1,0 +1,54 @@
+{
+    "navList": [{
+            "name": "當缺水危機迫近",
+            "url": "#article1",
+            "isAnchor": true
+        },
+        {
+            "name": "降低漏水率計畫",
+            "url": "#article2",
+            "isAnchor": true
+        },
+        {
+            "name": "企業一起拚節水",
+            "url": "#article4",
+            "isAnchor": true
+        },
+        {
+            "name": "他國經驗當借鏡",
+            "url": "#report",
+            "isAnchor": true
+        },
+        {
+            "name": "<i class='fab fa-facebook-square l-right icon'></i>",
+            "class": "facebook-share",
+            "url": "http://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2020/water_resources",
+            "isAnchor": false
+        },
+        {
+            "name": "<i class='fab fa-line l-right icon'></i>",
+            "class": "line-share",
+            "url": "https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2020/water_resources",
+            "isAnchor": false
+        }
+    ],
+    "slider": [{
+            "title": "未來恐遇乾旱危機？李鴻源：這兩件事做好之前台灣人沒資格談缺水",
+            "url": "https://pse.is/38kdbg",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/TommyHuang_147/all/_HT_2974.JPG",
+            "description": "對於台灣的水資源問題，以水利專業見長的前內政部長、台大土木系教授李鴻源直言，以目前狀況來說，水庫淤積問題難以解決、台灣也無土地可新建水庫，若無法開源，就只能朝節流去規劃，要是無法做到調高水價、發展水資源回收，「那台灣人就沒有資格談論缺水這件事」。"
+        },
+        {
+            "title": "6成國土是沙漠、一年下雨不到30天，揭開以色列不缺水的秘密",
+            "url": "https://pse.is/39dfcl",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/reneeliao_91/2020/Israel%20vs%20taiwan.jpg",
+            "description": "缺水的警鐘早已敲響！聯合國示警，2050年將有20億人面臨無水可用的困境。放眼望向高達6成國土都是荒漠、一年下雨天數不到30天的以色列，竟早在1960年代就超前部署，搶在缺水的倒數計時器響起前，與天爭水！"
+        },
+        {
+            "title": "台積電最大美國對手竟然在「沙漠」設晶圓廠！他們怎麼搞定自家",
+            "url": "https://pse.is/3arcs3",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/walterliu_210/intel%203.jpg",
+            "description": "美國半導體大廠英特爾，在亞利桑納州設有4座晶圓廠；值得注意的是，晶圓廠不僅是吃電怪獸，也是用水怪獸，但亞利桑納州是亞熱帶沙漠氣候，全年降雨僅約150至400毫米，遠低於台灣年均降雨量2500毫米，英特爾為何選擇在此地設置晶圓廠，又如何解決用水量龐大的問題？"
+        }
+    ]
+}
