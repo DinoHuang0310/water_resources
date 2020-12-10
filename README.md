@@ -1,4 +1,4 @@
-# 專案名稱
+# water_resources
  
  ### Follow the rules when you git
   1. feat: 新功能 (feature)
@@ -27,5 +27,21 @@ npm run-script build
 ## data format
 ```
 {
+    "navList": [
+        {
+            "name": "選單名稱 (html)",
+            "class": "定義class (選)",
+            "url": "url或錨點",
+            "isAnchor": 是否為錨點 (布林)
+        }
+    ],
+    "slider": [
+        {
+            "title": "標題",
+            "url": "url",
+            "image": "圖檔url",
+            "description": "描述"
+        }
+    ]
 }
 ```
