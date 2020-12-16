@@ -218,6 +218,12 @@ export default {
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
 }
+#kvarea h1 img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 1600px;
+}
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
@@ -275,6 +281,9 @@ export default {
 }
 
 @media screen and (max-width: 480px) {
+  #kvarea h1 img {
+    width: 90%;
+  }
   #kvarea ul li:first-child {
     top: 19%;
     left: 55%;
