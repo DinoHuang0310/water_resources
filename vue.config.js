@@ -4,7 +4,7 @@ module.exports = {
         config
             .plugin('html')
             .tap(args => {
-                args[0].title = '乾旱終將成為台灣的宿命？'
+                args[0].title = '《今周刊》乾旱恐成台灣宿命？ - 數位專題'
                 return args
             })
     },
