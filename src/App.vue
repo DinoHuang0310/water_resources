@@ -1,7 +1,7 @@
 <template>
   <div id="app" v-if="windowHeight">
     <Header v-if="data" :navList="data.navList" />
-    <KvArea :scrollTop="scrollTop" :windowHeight="windowHeight" />
+    <KvArea v-if="data" :scrollTop="scrollTop" :windowHeight="windowHeight" :kvArea="data.kvArea" />
     <Main
       v-if="data"
       :windowHeight="windowHeight"

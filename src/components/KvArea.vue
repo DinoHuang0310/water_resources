@@ -3,7 +3,7 @@
     <div id="kv-background" :style="{'transform': setScale(), 'opacity': setOpacity()}">
       <img src="../assets/images/kv_background.png" alt="" @load="imgLoaded" />
       <ul>
-        <li v-for="(list, index) in textArr" :key="index">
+        <li v-for="(list, index) in kvArea.textArr" :key="index">
           <VueTyper
             :text='list'
             :repeat='0'
@@ -15,9 +15,9 @@
       </ul>
     </div>
     <div class="wrapper">
-      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">57年來首次豐水期無颱風...</h2>
-      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">新竹至嘉義水庫集水區<br>降雨量創歷年最低</h2>
-      <h1 :class="textAnimateDone >= textArr.length ? 'show' : null">
+      <h2 :class="textAnimateDone >= kvArea.textArr.length ? 'show' : null">{{ kvArea.titles.lineone }}</h2>
+      <h2 :class="textAnimateDone >= kvArea.textArr.length ? 'show' : null">{{ kvArea.titles.linetwo }}<br>{{ kvArea.titles.linethree }}</h2>
+      <h1 :class="textAnimateDone >= kvArea.textArr.length ? 'show' : null">
         <picture>
           <source media="(min-width: 481px)" srcset="../assets/images/slogan.png">
           <source media="(max-width: 480px)" srcset="../assets/images/slogan_m.png">
@@ -48,21 +48,16 @@ export default {
     scrollTop: {
       type: Number,
       required: true
+    },
+    kvArea: {
+      type: Object,
+      required: true
     }
   },
   data() {
     return {
       loading: true,
       imgLoader: 0,
-      textArr: [
-        '面對缺水的未來，該怎麼辦?',
-        '驚！台灣進入枯水期水庫蓄水量如續下降恐乾旱',
-        '抗旱鑿井是不得已但必要的風險管理規劃',
-        '依災害防救法宣布開放科學園區廠商臨時鑿井',
-        '新竹、苗栗及台中地區水庫蓄水量已低於2成',
-        '限水惡夢要來了？揭開台灣水資源的秘密',
-        '新竹、苗栗、台中水情嚴峻，擴大自來水減壓時段至全日實施…'
-      ],
       textAnimateDone: 0
     }
   },
@@ -77,9 +72,6 @@ export default {
     },
     onTyped() {
       this.textAnimateDone++;
-      // if(this.textAnimateDone >= this.textArr.length) {
-      //   console.log('all done')
-      // }
     },
     setScale() {
       if(this.scrollTop < this.windowHeight) {
