@@ -15,8 +15,8 @@
       </ul>
     </div>
     <div class="wrapper">
-      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">56年來首度汛期無颱風...</h2>
-      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">水庫集水區降雨量，<br>只剩歷史平均值的2到6成...</h2>
+      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">57年來首次豐水期無颱風...</h2>
+      <h2 :class="textAnimateDone >= textArr.length ? 'show' : null">新竹至嘉義水庫集水區<br>降雨量創歷年最低</h2>
       <h1 :class="textAnimateDone >= textArr.length ? 'show' : null">
         <picture>
           <source media="(min-width: 481px)" srcset="../assets/images/slogan.png">
@@ -57,11 +57,11 @@ export default {
       textArr: [
         '面對缺水的未來，該怎麼辦?',
         '驚！台灣進入枯水期水庫蓄水量如續下降恐乾旱',
-        '自來水管才是台灣缺水最大敵人',
-        '颱風沒來台灣缺水 政院討論因應措施',
-        '全台缺水 桃竹苗台中夜間減壓',
+        '抗旱鑿井是不得已但必要的風險管理規劃',
+        '依災害防救法宣布開放科學園區廠商臨時鑿井',
+        '新竹、苗栗及台中地區水庫蓄水量已低於2成',
         '限水惡夢要來了？揭開台灣水資源的秘密',
-        '桃竹苗中水情吃緊已實施一階段限水'
+        '新竹、苗栗、台中水情嚴峻，擴大自來水減壓時段至全日實施…'
       ],
       textAnimateDone: 0
     }
@@ -168,33 +168,33 @@ export default {
   position: absolute;
   white-space: nowrap;
 }
-#kvarea ul li:first-child { /* 面對缺水的未來，該怎麼辦? */
+#kvarea ul li:first-child {
   top: 25%;
   left: 13%;
 }
-#kvarea ul li:nth-child(2) { /* 驚！台灣進入枯水期水庫蓄水量如續下降恐乾旱 */
+#kvarea ul li:nth-child(2) {
   top: 30%;
   left: 70%;
 }
-#kvarea ul li:nth-child(3) { /* 自來水管才是台灣缺水最大敵人 */
+#kvarea ul li:nth-child(3) {
   top: 70%;
   left: 7%;
 }
-#kvarea ul li:nth-child(4) { /* 颱風沒來台灣缺水 政院討論因應措施 */
+#kvarea ul li:nth-child(4) {
   top: 85%;
   left: 30%;
 }
-#kvarea ul li:nth-child(5) { /* 全台缺水 桃竹苗台中夜間減壓 */
+#kvarea ul li:nth-child(5) {
   top: 80%;
   left: 58%;
 }
-#kvarea ul li:nth-child(6) { /* 限水惡夢要來了？揭開台灣水資源的秘密 */
+#kvarea ul li:nth-child(6) {
   top: 70%;
   left: 70%;
 }
-#kvarea ul li:nth-child(7) { /* 桃竹苗中水情吃緊已實施一階段限水 */
+#kvarea ul li:nth-child(7) {
   top: 47%;
-  left: 5%;
+  left: 2%;
 }
 .vue-typer .custom.char.typed {
   margin-right: 0.1em;
