@@ -27,6 +27,14 @@ npm run-script build
 ## data format
 ```
 {
+    "kvArea": {
+        "titles": {
+            "lineone": "標題1",
+            "linetwo": "標題2",
+            "linethree": "標題3"
+        },
+        "textArr": ["背景文字"]
+    },
     "navList": [
         {
             "name": "選單名稱 (html)",

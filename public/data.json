@@ -1,4 +1,20 @@
 {
+    "kvArea": {
+        "titles": {
+            "lineone": "57年來首次豐水期無颱風...",
+            "linetwo": "新竹至嘉義水庫集水區",
+            "linethree": "降雨量創歷年最低"
+        },
+        "textArr": [
+            "面對缺水的未來，該怎麼辦?",
+            "驚！台灣進入枯水期水庫蓄水量如續下降恐乾旱",
+            "抗旱鑿井是不得已但必要的風險管理規劃",
+            "依災害防救法宣布開放科學園區廠商臨時鑿井",
+            "新竹、苗栗及台中地區水庫蓄水量已低於2成",
+            "限水惡夢要來了？揭開台灣水資源的秘密",
+            "新竹、苗栗、台中水情嚴峻，擴大自來水減壓時段至全日實施…"
+        ]
+    },
     "navList": [{
             "name": "當缺水危機迫近",
             "url": "#article1",
@@ -15,7 +31,7 @@
             "isAnchor": true
         },
         {
-            "name": "他國經驗當借鏡",
+            "name": "對抗旱象找解方",
             "url": "#report",
             "isAnchor": true
         },
@@ -49,6 +65,18 @@
             "url": "https://pse.is/3arcs3",
             "image": "https://doqvf81n9htmm.cloudfront.net/data/walterliu_210/intel%203.jpg",
             "description": "美國半導體大廠英特爾，在亞利桑納州設有4座晶圓廠；值得注意的是，晶圓廠不僅是吃電怪獸，也是用水怪獸，但亞利桑納州是亞熱帶沙漠氣候，全年降雨僅約150至400毫米，遠低於台灣年均降雨量2500毫米，英特爾為何選擇在此地設置晶圓廠，又如何解決用水量龐大的問題？"
+        },
+        {
+            "title": "水情告急，為何台積電老神在在？劉德音：2年前開始超前部署",
+            "url": "https://pse.is/3aqrse",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/111400/shutterstock_1614399211.jpg_1140x855.jpg",
+            "description": "「我相信今年的難關，一定是可以克服的。」頂著台中的大太陽，台積電董事長劉德音在今（12）日舉辦的「台積電植樹薪傳計畫」活動上，針對全國缺水問題回應，強調台積電有能力應對當前危機，「就像我們過去幾年一樣。」"
+        },
+        {
+            "title": "台灣半導體如何才能不被大旱打敗？ 專家斷言：做「這三件事」",
+            "url": "https://pse.is/3cbrma",
+            "image": "https://www.businesstoday.com.tw/lazyweb/project/water_resources/images/shutterstock_684989755.jpg",
+            "description": "台灣逢56年來最大乾旱！ 外國媒體上個月警告，旱象恐衝擊台灣半導體產能、影響股價，對此經濟部長王美花日前公開表示，「科學園區和工業區用水需求，可在旱災期間鑿井使用」。"
         }
     ]
 }
