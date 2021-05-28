@@ -242,7 +242,7 @@ export default {
     margin-top: 0;
   }
   #kvarea ul li {
-    opacity: .5;
+    opacity: 0;
   }
 }
 
